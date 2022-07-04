@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(200, 213, 197);
+    text-align: center;
+}
+
+.container {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+
+.redes-container {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.redes-container li{
+    display: inline-block;
+    padding: 1%;
+    }
