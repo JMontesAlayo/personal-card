@@ -6,61 +6,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Jean Montes Alayo</title>
-    <link rel="shortcut icon" href="./Mangekyou sharingan.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Mangekyou-sharingan.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/index.css"/>
 </head>
-<body>
-    <article>
-        <div>
-            <div>
-            <header>
-                <img src="https://indiehoy.com/wp-content/uploads/2022/05/naruto.jpg"  alt="Jean Montes" width="256" height="256"/>
-            </header>
-            <main>
-                <h1>Jean Montes</h1>
-                <h2>Ing. Químico👨‍🔬| Desarrollador web🧑‍💻| Crossfitter🏋️‍♂️</h2>
-                <p>Ingeniero Químico con ganas de aprender desarrollo web</p>
-            </main>
-            <footer>
-                <nav class="redes-container">
-                    <ul>
-                        <li>
-                            <a href="https://www.youtube.com/channel/UCXgfoIi6XzLjdqeMIVwcnhA/featured" target="_blank" rel="noreferrer noopener">
-                                <img src="https://i.postimg.cc/dtPYcvbM/youtube.png" alt="youtube" width="32" height="32" >
-                            </a>
+
+<body class="body">
+    <header class="header">
+        <nav class="header-nav">
+            <div class="header-nav__container">
+                <a href="#hero" class="header-nav__link-logo-container">
+                    <img src="imagenes/logonaruto.jpg" alt="logonaruto" width="107" height="32" 
+                    class="header-nav__link-logo" />
+                </a>
+                    <ul class="header-nav__menu-list">
+                        <li class="header-nav__menu-item">
+                            <a href="#learningWeeks" class="header-nav__menu-link">semanas</a>
                         </li>
-                        <li>
-                            <a href="https://github.com/JMontesAlayo" target="_blank" rel="noreferrer noopener">
-                                <img src="https://i.postimg.cc/5NBMxTJX/github.png" alt="github" width="32" height="32" >
-                            </a>
+                        <li class="header-nav__menu-item">
+                            <a href="#learningWeeks" class="header-nav__menu-link">semanas</a>
                         </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/jean-montes-alayo-6b1346187/" target="_blank" rel="noreferrer noopener">
-                                <img src="https://i.postimg.cc/J7BLFtdc/linkedin.png" alt="linkedin" width="32" height="32" >
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/montesalayo/" target="_blank" rel="noreferrer noopener">
-                                <img src="https://i.postimg.cc/sfJtqS4W/instagram.png" alt="instagram" width="32" height="32" >
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/jean.montesalayo" target="_blank" rel="noreferrer noopener">
-                                <img src="https://i.postimg.cc/7YHyZXZX/facebook.png" alt="facebook" width="32" height="32" >
-                            </a>
+                        <li class="header-nav__menu-item">
+                            <a href="https://www.linkedin.com/in/jean-montes-alayo-6b1346187/" target="_blank"
+                                rel="noopener noreferrer" class="header-nav__menu-link">Jean</a>
                         </li>
                     </ul>
-                </nav>
-            </footer>
-            
             </div>
-        </div>
-    </article>
+        </nav>
+    </header>
     
+    <main>
+        <article id="hero" class="article">
+            <h1></h1>
+            <h2>Los mejores diseños y desarrollos de paginas web en el Perú</h2>
+            <p>
+                Aprende y diviertete desarrollando las mejores web junto al mejor equipo profesional califiado del país. 
+                Diseña web desde cero y conviertete en el desarrollador Web full stack que sueñas.
+                Unete a la mejor comunidad de programadores web.
+                ¡Empieza un nuevo reto!
+            </p>
+            <a href="#learningWeeks">¡Aprender gratis!</a>
+        </article>
+
+        <section class="profile">
+            <div class="profile__container">
+                <article class="card">
+                    <header class="card__header">
+                        <div class="card__header-img-container">
+                            <img src="https://indiehoy.com/wp-content/uploads/2022/05/naruto.jpg"  alt="Jean Montes" width="256" height="256" 
+                            class="card__header-img"/>
+                        </div>
+                    </header>
+                    <section  class="card__body">
+                    <h1 class="card__body-title">Jean Montes</h1>
+                        <h2 class="card__body-keywords">Ing. Químico👨‍🔬| Desarrollador web🧑‍💻| Crossfitter🏋️‍♂️</h2>
+                        <p class="card__body-presentation">Ingeniero Químico iniciando un nuevo reto aprender de aprender, programas y desarrollar las mejores web </p>
+                    </section>
+                    <footer class="card__footer">
+                        <nav>
+                            <ul class="card__footer-nav-redes-sociales">
+                                <li class="card__footer-nav-red-social-item">
+                                    <a href="https://www.youtube.com/channel/UCXgfoIi6XzLjdqeMIVwcnhA/featured" target="_blank" rel="noreferrer noopener" class="card__footer-nav-link">
+                                        <img src="https://i.postimg.cc/dtPYcvbM/youtube.png" alt="youtube" width="32" height="32" class="card__footer-nav-img"/>
+                                    </a>
+                                </li>
+                                <li class="card__footer-nav-red-social-item">
+                                    <a href="https://github.com/JMontesAlayo" target="_blank" rel="noreferrer noopener" class="card__footer-nav-link">
+                                        <img src="https://i.postimg.cc/5NBMxTJX/github.png" alt="github" width="32" height="32" class="card__footer-nav-img" />
+                                    </a>
+                                </li>
+                                <li class="card__footer-nav-red-social-item">
+                                    <a href="https://www.linkedin.com/in/jean-montes-alayo-6b1346187/" target="_blank" rel="noreferrer noopener" class="card__footer-nav-link">
+                                        <img src="https://i.postimg.cc/J7BLFtdc/linkedin.png" alt="linkedin" width="32" height="32" class="card__footer-nav-img" />
+                                    </a>
+                                </li>
+                                <li class="card__footer-nav-red-social-item">
+                                    <a href="https://www.instagram.com/montesalayo/" target="_blank" rel="noreferrer noopener" class="card__footer-nav-link">
+                                        <img src="https://i.postimg.cc/sfJtqS4W/instagram.png" alt="instagram" width="32" height="32" class="card__footer-nav-img" />
+                                    </a>
+                                </li>
+                                <li class="card__footer-nav-red-social-item">
+                                    <a href="https://www.facebook.com/jean.montesalayo" target="_blank" rel="noreferrer noopener" class="card__footer-nav-link">
+                                        <img src="https://i.postimg.cc/7YHyZXZX/facebook.png" alt="facebook" width="32" height="32" class="card__footer-nav-img" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </footer>
+                </article>
+            </div>
+        </section>
+
+        <section id="learningWeeks">
+            <h2>Semanas</h2>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./semana-1/index.html">Semana 1</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </main>
+    <footer>
+        <h5>Copyright &copy; 2022 <a href="https://www.linkedin.com/in/jean-montes-alayo-6b1346187/" target="_blank"
+            rel="noopener noreferrer">Jean Montes Alayo</a>. Todos los derechos reservados.</h5> 
+    </footer>
     
 </body>
 
 </html>
+
 
     
 
